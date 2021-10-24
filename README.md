@@ -12,14 +12,15 @@ Original App Design Project - README Template
 ## Overview
 ### Description
 [Description of your app]
+An app that allows users to browse games that are popular now and create an account to make comments on the game page. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
+- **Category:** Social Networking / Game
+- **Mobile:** This app would be primarily developed for mobile.
+- **Story:** Give users a list of popular games and categorize them. Users can also leave comments under the game introduction page so that it gives users a chance to communicate with each other and even become game friends.
+- **Market:** Anyone who likes to play video games can choose to use this app. 
+- **Habit:** The app can be used as often or unoften as the user wanted depending on when they need to buy a new game or when a new game is announced
 - **Scope:**
 
 ## Product Spec
