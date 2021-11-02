@@ -72,8 +72,7 @@ An app that allows users to browse video games that are popular now and create a
   * Go back to Log-in page. 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://user-images.githubusercontent.com/78678541/139945367-90f79431-b674-47d1-b4be-3e7b5d844144.jpeg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
