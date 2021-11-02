@@ -80,9 +80,22 @@ An app that allows users to browse video games that are popular now and create a
 
 ## Schema 
 [This section will be completed in Unit 9]
-### Models
-[Add table of models]
+### Data Models
+#### Comments
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user comment (default field) |
+   | author        | Pointer to User| author name |
+   | post          | Pointer to Post | comment object |
+   | text          | String   | caption of comment |
+   | commentsCount | Number   | number of comments that has been posted to a video game |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
 ### Networking
-- [Add list of network requests by screen ]
+#### List of network requests by screen
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
