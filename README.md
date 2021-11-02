@@ -64,10 +64,12 @@ An app that allows users to browse video games that are popular now and create a
 **Flow Navigation** (Screen to Screen)
 
 * Log-in
-  *  Register - Account creation if users choose sign up
+  * Register - Account creation if users choose sign up
 * Games List/Selection
-   * Jump to Game Details Screen when users choose a particular video game. 
-   * Then jump to Comment Screen if users choose to add comments. 
+  * Jump to Game Details Screen when users choose a particular video game. 
+  * Then jump to Comment Screen if users choose to add comments. 
+* Log-out
+  * Go back to Log-in page. 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
