@@ -12,16 +12,16 @@ Original App Design Project - README Template
 ## Overview
 ### Description
 [Description of your app]
-An app that allows users to browse games that are popular now and create an account to make comments on the game page. 
+An app that allows users to browse video games that are popular now and create an account to leave comments on the game page. It could be potentially used as an app for making friends with games
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social Networking / Game
-- **Mobile:** This app would be primarily developed for mobile.
+- **Mobile:** This app would be primarily developed for mobile. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
 - **Story:** Give users a list of popular games and categorize them. Users can also leave comments under the game introduction page so that it gives users a chance to communicate with each other and even become game friends.
 - **Market:** Anyone who likes to play video games can choose to use this app. 
-- **Habit:** The app can be used as often or unoften as the user wanted depending on when they need to buy a new game or when a new game is announced
-- **Scope:**
+- **Habit:** The app can be used as often or unoften as the user wanted depending on when they need to buy a new game or when a new game is announced. 
+- **Scope:** We will analyze the types of games people like and taste, and then maybe evolve into a game communication application to expand its use. Great potential for collaborating with Discord or other game communication applications.
 
 ## Product Spec
 
@@ -29,39 +29,45 @@ An app that allows users to browse games that are popular now and create an acco
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User logs in to access previous comments on video games. 
+* User can view and scroll through a list of video games that are popular now.
+* User can view the video games posters in each row.
+* User can view and leave comments on the game page.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can have chat windows to get to know each other.
+* Profile pages for each user.
+* Add a tab bar to allow users to view video games in a grid view (Collection View)
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login
+* Register - User signs up or logs into their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person.
+* Games List Screen
+   * Allows users to scroll through a list of video games. 
+   * Shows a brief introduction and poster of each video games in each row. 
+* Game Details Screen
+   * Allows users to get more information about a particular video game. 
+   * Allows users to add comments under the introduction article.  
+* Comment Screen
+   * Allows users to create comment
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Video Games Selection
+* Collection View
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Log-in
+  *  Register - Account creation if users choose sign up
+* Games List/Selection
+   * Jump to Game Details Screen when users choose a particular video game. 
+   * Then jump to Comment Screen if users choose to add comments. 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
