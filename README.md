@@ -116,5 +116,5 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://user-images.githubusercontent.com/78678541/140177538-fbba32bb-5f31-4ffe-bb91-7242c4786092.gif' title='Milestone Unit 7 Video Walkthrough' width='' alt='Milestone Unit 7 Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/78678541/140178588-89163c99-283b-4753-a805-31fa821133ea.gif' title='Milestone Unit 7 Video Walkthrough' width='' alt='Milestone Unit 7 Video Walkthrough' />
 
