@@ -98,3 +98,23 @@ An app that allows users to browse video games that are popular now and create a
 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+# Milestone Unit 7
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] Create an App Logo and add it in the Login Page
+- [x] Username and password input
+- [x] Sign up and Sign in button
+- [x] User logs in to access previous comments on video game pages and stays logged in across restarts.
+- [x] User can log out.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://user-images.githubusercontent.com/78678541/140177538-fbba32bb-5f31-4ffe-bb91-7242c4786092.gif' title='Milestone Unit 7 Video Walkthrough' width='' alt='Milestone Unit 7 Video Walkthrough' />
+
