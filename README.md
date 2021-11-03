@@ -29,17 +29,17 @@ An app that allows users to browse video games that are popular now and create a
 
 **Required Must-have Stories**
 
-* User logs in to access previous comments on video game pages and stays logged in across restarts. 
-* User can view and scroll through a list of video games that are popular now.
-* User can view the video games posters in each row.
-* User can view and leave comments on the game page.
-* User can log out. 
+- [x] User logs in to access previous comments on video game pages and stays logged in across restarts. 
+- [x] User can log out. 
+- [ ] User can view and scroll through a list of video games that are popular now.
+- [ ] User can view the video games posters in each row.
+- [ ] User can view and leave comments on the game page.
 
 **Optional Nice-to-have Stories**
 
-* Users can have chat windows to get to know each other.
-* Profile pages for each user.
-* Add a tab bar to allow users to view video games in a grid view (Collection View)
+- [ ] Users can have chat windows to get to know each other.
+- [ ] Profile pages for each user.
+- [ ] Add a tab bar to allow users to view video games in a grid view (Collection View)
 
 ### 2. Screen Archetypes
 
