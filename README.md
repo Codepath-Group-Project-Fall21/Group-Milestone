@@ -12,7 +12,7 @@ Original App Design Project - README Template
 ## Overview
 ### Description
 [Description of your app]
-An app that allows users to browse video games that are popular now and create an account to leave comments on the game page. It could be potentially used as an app for making friends with games
+An app that allows users to browse video games that are popular now and create an account to leave comments on the game page. It could be potentially used as an app for making games friends. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -29,10 +29,11 @@ An app that allows users to browse video games that are popular now and create a
 
 **Required Must-have Stories**
 
-* User logs in to access previous comments on video games. 
+* User logs in to access previous comments on video game pages and stays logged in across restarts. 
 * User can view and scroll through a list of video games that are popular now.
 * User can view the video games posters in each row.
 * User can view and leave comments on the game page.
+* User can log out. 
 
 **Optional Nice-to-have Stories**
 
@@ -43,16 +44,14 @@ An app that allows users to browse video games that are popular now and create a
 ### 2. Screen Archetypes
 
 * Login
-* Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person.
+  * Register - User signs up or logs into their account
+  * Upon reopening of the application, the user is prompted to log in to gain access to their previous comments on video games pages.
 * Games List Screen
    * Allows users to scroll through a list of video games. 
    * Shows a brief introduction and poster of each video games in each row. 
 * Game Details Screen
    * Allows users to get more information about a particular video game. 
    * Allows users to add comments under the introduction article.  
-* Comment Screen
-   * Allows users to create comment
 
 ### 3. Navigation
 
