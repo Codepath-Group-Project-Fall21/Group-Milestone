@@ -31,8 +31,8 @@ An app that allows users to browse video games that are popular now and create a
 
 - [x] User logs in to access previous comments on video game pages and stays logged in across restarts. 
 - [x] User can log out. 
-- [ ] User can view and scroll through a list of video games that are popular now.
-- [ ] User can view the video games posters in each row.
+- [x] User can view and scroll through a list of video games that are popular now.
+- [x] User can view the video games posters in each row.
 - [ ] User can view and leave comments on the game page.
 
 **Optional Nice-to-have Stories**
