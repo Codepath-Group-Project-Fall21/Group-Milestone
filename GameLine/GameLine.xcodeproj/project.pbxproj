@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		3D46B04627330B0500472E7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04527330B0500472E7D /* LoginViewController.swift */; };
 		3D46B04A27330F7D00472E7D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04927330F7D00472E7D /* GamesViewController.swift */; };
 		402DC0FAE8ED3617621742A0 /* Pods_GameLineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A4C505513ED22E41E509BA /* Pods_GameLineTests.framework */; };
+		C43A0651273B892D00B45703 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A0650273B892D00B45703 /* GameCell.swift */; };
+		C43A0654273B8D7300B45703 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C43A0653273B8D7300B45703 /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 		3D46B04527330B0500472E7D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D46B04927330F7D00472E7D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		9B7B561910962B2419B19837 /* Pods-GameLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLine.debug.xcconfig"; path = "Target Support Files/Pods-GameLine/Pods-GameLine.debug.xcconfig"; sourceTree = "<group>"; };
+		C43A0650273B892D00B45703 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 		C8057D1CB94DC73FCBBAB654 /* Pods-GameLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLineTests.release.xcconfig"; path = "Target Support Files/Pods-GameLineTests/Pods-GameLineTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF49E75E911F02B8D875ADE8 /* Pods-GameLineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLineUITests.release.xcconfig"; path = "Target Support Files/Pods-GameLineUITests/Pods-GameLineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D9C33A6ED7054CF44BEC1F35 /* Pods-GameLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLineTests.debug.xcconfig"; path = "Target Support Files/Pods-GameLineTests/Pods-GameLineTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFCE9075C543DB71B60ED8E /* Pods_GameLine.framework in Frameworks */,
+				C43A0654273B8D7300B45703 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +133,7 @@
 				3D46B0232733004300472E7D /* Info.plist */,
 				3D46B04527330B0500472E7D /* LoginViewController.swift */,
 				3D46B04927330F7D00472E7D /* GamesViewController.swift */,
+				C43A0650273B892D00B45703 /* GameCell.swift */,
 			);
 			path = GameLine;
 			sourceTree = "<group>";
@@ -192,6 +197,9 @@
 			dependencies = (
 			);
 			name = GameLine;
+			packageProductDependencies = (
+				C43A0653273B8D7300B45703 /* AlamofireImage */,
+			);
 			productName = GameLine;
 			productReference = 3D46B0122733003E00472E7D /* GameLine.app */;
 			productType = "com.apple.product-type.application";
@@ -265,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 3D46B0092733003E00472E7D;
+			packageReferences = (
+				C43A0652273B8D7300B45703 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 3D46B0132733003E00472E7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -399,6 +410,7 @@
 				3D46B0162733003E00472E7D /* AppDelegate.swift in Sources */,
 				3D46B0182733003E00472E7D /* SceneDelegate.swift in Sources */,
 				3D46B04A27330F7D00472E7D /* GamesViewController.swift in Sources */,
+				C43A0651273B892D00B45703 /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +743,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C43A0652273B8D7300B45703 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C43A0653273B8D7300B45703 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C43A0652273B8D7300B45703 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D46B00A2733003E00472E7D /* Project object */;
 }
