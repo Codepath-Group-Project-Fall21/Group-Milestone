@@ -118,3 +118,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://user-images.githubusercontent.com/78678541/140178588-89163c99-283b-4753-a805-31fa821133ea.gif' title='Milestone Unit 7 Video Walkthrough' width='' alt='Milestone Unit 7 Video Walkthrough' />
 
+<img src='https://i.imgur.com/YdTyRKY.gif' title='Milestone Unit 7 Video Walkthrough' width='' alt='Milestone Unit 7 Video Walkthrough' />
+
+
