@@ -1,21 +1,16 @@
 //
-//  GameCell.swift
+//  CommentCell.swift
 //  GameLine
 //
-//  Created by Mustafa Kudrat on 11/9/21.
+//  Created by 霍一帆 on 11/16/21.
 //
 
 import UIKit
 
-class GameCell: UITableViewCell {
+class CommentCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    
-    @IBOutlet weak var synopsisLabel: UILabel!
-    
-    @IBOutlet weak var dateLabel: UILabel!
-    
-    @IBOutlet weak var posterView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

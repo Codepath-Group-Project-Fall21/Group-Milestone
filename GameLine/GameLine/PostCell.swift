@@ -1,21 +1,18 @@
 //
-//  GameCell.swift
+//  PostCell.swift
 //  GameLine
 //
-//  Created by Mustafa Kudrat on 11/9/21.
+//  Created by 霍一帆 on 11/16/21.
 //
 
 import UIKit
 
-class GameCell: UITableViewCell {
+class PostCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var photoView: UIImageView!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var captionLabel: UILabel!
     
-    @IBOutlet weak var synopsisLabel: UILabel!
-    
-    @IBOutlet weak var dateLabel: UILabel!
-    
-    @IBOutlet weak var posterView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

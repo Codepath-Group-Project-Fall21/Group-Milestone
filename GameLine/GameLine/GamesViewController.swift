@@ -11,9 +11,6 @@ import AlamofireImage
 
 class GamesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
-    
-    
     @IBOutlet weak var tableView: UITableView!
    
     var games = [[String:Any]]()
@@ -57,10 +54,11 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
         let game = games[indexPath.row]
         let title = game["name"] as! String
         let synopsis = game["rating"] as! Double
-        
+        let date = game["released"] as! String
         
         cell.titleLabel.text = title
         cell.synopsisLabel.text = "Rating(Out of 5): \(synopsis)"
+        cell.dateLabel.text = "Released: \(date)"
         
         let posterPath = game["background_image"] as! String
         let posterUrl = URL(string: posterPath)
@@ -71,15 +69,29 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
         return cell
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        print("Loading up the details screen")
+        
+        //Find the selected games
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let game = games[indexPath.row]
+        
+        //Pass the selected game to the details view controller
+        let detailViewController = segue.destination as! GameDetailsViewController
+        detailViewController.game = game
+        
+        //Let movie not be selected any more when getting back to the main menus page
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
+    
+    
     @IBAction func onLogoutButton(_ sender: Any) {
         PFUser.logOut()
             

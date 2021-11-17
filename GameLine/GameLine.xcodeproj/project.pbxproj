@@ -19,6 +19,10 @@
 		3D46B0382733004300472E7D /* GameLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B0372733004300472E7D /* GameLineUITests.swift */; };
 		3D46B04627330B0500472E7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04527330B0500472E7D /* LoginViewController.swift */; };
 		3D46B04A27330F7D00472E7D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04927330F7D00472E7D /* GamesViewController.swift */; };
+		3D46B04C27445A0000472E7D /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04B27445A0000472E7D /* GameDetailsViewController.swift */; };
+		3D46B04E27447FDD00472E7D /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04D27447FDD00472E7D /* CommentViewController.swift */; };
+		3D46B050274483EF00472E7D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B04F274483EF00472E7D /* PostCell.swift */; };
+		3D46B052274488E600472E7D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46B051274488E500472E7D /* CommentCell.swift */; };
 		402DC0FAE8ED3617621742A0 /* Pods_GameLineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A4C505513ED22E41E509BA /* Pods_GameLineTests.framework */; };
 		C43A0651273B892D00B45703 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A0650273B892D00B45703 /* GameCell.swift */; };
 		C43A0654273B8D7300B45703 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C43A0653273B8D7300B45703 /* AlamofireImage */; };
@@ -60,6 +64,10 @@
 		3D46B0392733004300472E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D46B04527330B0500472E7D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D46B04927330F7D00472E7D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		3D46B04B27445A0000472E7D /* GameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		3D46B04D27447FDD00472E7D /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		3D46B04F274483EF00472E7D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3D46B051274488E500472E7D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		9B7B561910962B2419B19837 /* Pods-GameLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLine.debug.xcconfig"; path = "Target Support Files/Pods-GameLine/Pods-GameLine.debug.xcconfig"; sourceTree = "<group>"; };
 		C43A0650273B892D00B45703 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 		C8057D1CB94DC73FCBBAB654 /* Pods-GameLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameLineTests.release.xcconfig"; path = "Target Support Files/Pods-GameLineTests/Pods-GameLineTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +142,10 @@
 				3D46B04527330B0500472E7D /* LoginViewController.swift */,
 				3D46B04927330F7D00472E7D /* GamesViewController.swift */,
 				C43A0650273B892D00B45703 /* GameCell.swift */,
+				3D46B04B27445A0000472E7D /* GameDetailsViewController.swift */,
+				3D46B04D27447FDD00472E7D /* CommentViewController.swift */,
+				3D46B04F274483EF00472E7D /* PostCell.swift */,
+				3D46B051274488E500472E7D /* CommentCell.swift */,
 			);
 			path = GameLine;
 			sourceTree = "<group>";
@@ -405,9 +417,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46B04E27447FDD00472E7D /* CommentViewController.swift in Sources */,
 				3D46B04627330B0500472E7D /* LoginViewController.swift in Sources */,
+				3D46B04C27445A0000472E7D /* GameDetailsViewController.swift in Sources */,
 				3D46B01A2733003E00472E7D /* ViewController.swift in Sources */,
 				3D46B0162733003E00472E7D /* AppDelegate.swift in Sources */,
+				3D46B052274488E600472E7D /* CommentCell.swift in Sources */,
+				3D46B050274483EF00472E7D /* PostCell.swift in Sources */,
 				3D46B0182733003E00472E7D /* SceneDelegate.swift in Sources */,
 				3D46B04A27330F7D00472E7D /* GamesViewController.swift in Sources */,
 				C43A0651273B892D00B45703 /* GameCell.swift in Sources */,
